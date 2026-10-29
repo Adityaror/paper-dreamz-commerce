@@ -1,0 +1,33 @@
+# Local PHP runtime & composer binaries
+php84/
+/php84/
+composer.phar
+*.phar
+
+# Environment files
+.env
+.env.backup
+.env.production
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dependencies & build outputs
+node_modules/
+vendor/
+.next/
+out/
+dist/
+build/
+
+# Logs & temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.zip
+*.bak
+
