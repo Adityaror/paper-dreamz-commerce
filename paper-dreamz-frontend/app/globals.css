@@ -1,0 +1,363 @@
+@import "tailwindcss";
+
+:root {
+  --color-cream: #faf7f2;
+  --color-cream-2: #f3ecdf;
+  --color-ink: #2c2420;
+  --color-noir: #06110c;
+  --color-emerald: #0f2b1e;
+  --color-emerald-2: #163d29;
+  --color-bottle-green: #0a1f14;
+  --color-gold: #c5a059;
+  --color-gold-light: #e3c07f;
+  --color-gold-deep: #9c7a3f;
+  --color-blush: #e3a98f;
+  --color-rose-gold: #d9a99a;
+  --color-taupe: #7a6f61;
+  --color-ivory: #f8f4ec;
+  --color-ivory-dim: #cfc7b8;
+
+  /* Theme Palette Presets */
+  --theme-emerald-bg: #0a1f14;
+  --theme-emerald-surface: #0f2b1e;
+  --theme-emerald-text: #faf6ee;
+  
+  --theme-ivory-bg: #faf6ee;
+  --theme-ivory-surface: #ffffff;
+  --theme-ivory-text: #2c2420;
+
+  --theme-beige-bg: #f3ecdf;
+  --theme-beige-surface: #faf6ee;
+  --theme-beige-text: #2c2420;
+
+  --theme-yellow-bg: #fdf6e2;
+  --theme-yellow-surface: #fffbf0;
+  --theme-yellow-text: #2a2015;
+
+  --theme-blush-bg: #fbf0eb;
+  --theme-blush-surface: #ffffff;
+  --theme-blush-text: #2e1e19;
+
+  --theme-sage-bg: #edf3ed;
+  --theme-sage-surface: #ffffff;
+  --theme-sage-text: #17231c;
+
+  --background: var(--color-cream);
+  --foreground: var(--color-ink);
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-cream-2: var(--color-cream-2);
+  --color-ink: var(--color-ink);
+  --color-noir: var(--color-noir);
+  --color-emerald: var(--color-emerald);
+  --color-emerald-2: var(--color-emerald-2);
+  --color-bottle-green: var(--color-bottle-green);
+  --color-gold: var(--color-gold);
+  --color-gold-light: var(--color-gold-light);
+  --color-gold-deep: var(--color-gold-deep);
+  --color-blush: var(--color-blush);
+  --color-rose-gold: var(--color-rose-gold);
+  --color-taupe: var(--color-taupe);
+  --color-ivory: var(--color-ivory);
+  --color-ivory-dim: var(--color-ivory-dim);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-display: var(--font-urbanist);
+  --font-playfair: var(--font-playfair);
+  --font-sans: var(--font-urbanist);
+  --font-urbanist: var(--font-urbanist);
+  --font-mono: var(--font-barlow), "Arial Narrow", sans-serif;
+  --font-script: var(--font-cormorant);
+  --font-logo: var(--font-cormorant);
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  @keyframes float {
+    0%, 100% { transform: translateY(0) rotate(-1deg); }
+    50% { transform: translateY(-18px) rotate(1deg); }
+  }
+  @keyframes shimmer {
+    from { background-position: -200% 0; }
+    to { background-position: 200% 0; }
+  }
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gold-deep) transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+section[id], footer[id], div[id="contact"] {
+  scroll-margin-top: 6.5rem;
+}
+
+body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(197, 160, 89, 0.10), transparent 60%),
+    radial-gradient(ellipse 80% 55% at 100% 10%, rgba(197, 160, 89, 0.08), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(15, 43, 30, 0.06), transparent 60%),
+    linear-gradient(180deg, #fbf8f3 0%, #f6f0e5 45%, #f1e9da 100%);
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  overflow-x: hidden;
+  position: relative;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+/* Global Theme Variations */
+html[data-theme="emerald"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(197, 160, 89, 0.15), transparent 60%),
+    radial-gradient(ellipse 80% 55% at 100% 10%, rgba(15, 43, 30, 0.4), transparent 55%),
+    linear-gradient(180deg, #0a1f14 0%, #0d281a 50%, #06110c 100%);
+  background-attachment: fixed;
+  color: #faf6ee;
+}
+
+html[data-theme="ivory"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(197, 160, 89, 0.12), transparent 60%),
+    linear-gradient(180deg, #faf6ee 0%, #f7f2e7 50%, #f4eee0 100%);
+  background-attachment: fixed;
+  color: #2c2420;
+}
+
+html[data-theme="beige"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(197, 160, 89, 0.14), transparent 60%),
+    linear-gradient(180deg, #f3ecdf 0%, #ede4d5 50%, #e6dac8 100%);
+  background-attachment: fixed;
+  color: #2c2420;
+}
+
+html[data-theme="yellow"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(245, 214, 120, 0.35), transparent 60%),
+    radial-gradient(ellipse 80% 55% at 100% 10%, rgba(197, 160, 89, 0.2), transparent 55%),
+    linear-gradient(180deg, #fdf6e2 0%, #fcf0cd 50%, #f7e6b8 100%);
+  background-attachment: fixed;
+  color: #2a2015;
+}
+
+html[data-theme="blush"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(227, 169, 143, 0.25), transparent 60%),
+    linear-gradient(180deg, #fbf0eb 0%, #f6e1d8 50%, #eed2c6 100%);
+  background-attachment: fixed;
+  color: #2e1e19;
+}
+
+html[data-theme="sage"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(61, 107, 79, 0.18), transparent 60%),
+    linear-gradient(180deg, #edf3ed 0%, #e2ece2 50%, #d5e3d6 100%);
+  background-attachment: fixed;
+  color: #17231c;
+}
+
+html[data-theme="burgundy"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(197, 160, 89, 0.15), transparent 60%),
+    linear-gradient(180deg, #260d14 0%, #38131e 50%, #15050a 100%);
+  background-attachment: fixed;
+  color: #faf6ee;
+}
+
+html[data-theme="terracotta"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(223, 122, 94, 0.2), transparent 60%),
+    linear-gradient(180deg, #f7ede2 0%, #f1ded2 50%, #e8cdc0 100%);
+  background-attachment: fixed;
+  color: #2e1e19;
+}
+
+html[data-theme="midnight"] body {
+  background:
+    radial-gradient(ellipse 90% 60% at 15% -10%, rgba(197, 160, 89, 0.15), transparent 60%),
+    linear-gradient(180deg, #091222 0%, #101d36 50%, #050b14 100%);
+  background-attachment: fixed;
+  color: #faf6ee;
+}
+
+html[data-theme="custom"] body {
+  background: var(--custom-global-bg, #faf6ee);
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+body > *:not(.fixed) {
+  position: relative;
+  z-index: 1;
+}
+
+.font-display {
+  font-family: var(--font-urbanist), sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), Georgia, serif;
+  font-style: normal;
+}
+
+.font-sans {
+  font-family: var(--font-urbanist), sans-serif;
+  font-style: normal;
+}
+
+.font-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Collections section renders entirely in Playfair */
+.collections-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-playfair), Georgia, serif;
+}
+
+.font-urbanist {
+  font-family: var(--font-urbanist), sans-serif;
+  font-style: normal;
+}
+
+.font-script {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.font-logo {
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  letter-spacing: 0.28em;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(110deg, #9c7a3f 10%, #e3c07f 35%, #fff3d6 50%, #e3c07f 65%, #9c7a3f 90%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 5s linear infinite;
+}
+
+.noise::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.03;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.glass {
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.25));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(197, 160, 89, 0.25);
+}
+
+.glass-dark {
+  background: linear-gradient(160deg, rgba(6, 17, 12, 0.92), rgba(6, 17, 12, 0.78));
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(197, 160, 89, 0.2);
+}
+
+.gold-border {
+  border: 1px solid rgba(197, 160, 89, 0.35);
+}
+
+.divider-gold {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-cream);
+}
+
+.btn-elite {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.btn-elite::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent, rgba(255,255,255,0.4), transparent);
+  transform: translateX(-120%) skewX(-15deg);
+  transition: transform 0.6s ease;
+  z-index: -1;
+}
+.btn-elite:hover::before {
+  transform: translateX(120%) skewX(-15deg);
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Set before first paint by the inline script in app/layout.tsx when the intro is skipped. */
+html[data-intro-skip] .pd-intro {
+  display: none;
+}
+
+/* Admin "Preview" side panel (?admin-preview=<section id>, see components/AdminPreview.tsx): outline the section
+   being edited, and keep the promo popup from covering it unless the popup is what's being previewed. */
+[data-admin-preview-target] {
+  outline: 3px dashed #c5a059;
+  outline-offset: -3px;
+}
+html[data-admin-preview]:not([data-admin-preview="promo-popup"]) #promo-popup {
+  display: none;
+}

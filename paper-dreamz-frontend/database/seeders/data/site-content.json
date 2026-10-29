@@ -1,0 +1,990 @@
+{
+  "page_sections": {
+    "home.collections": {
+      "heading": "Shop by Category",
+      "subtext": "Beautifully handmade creations for every occasion",
+      "button_label": "View All Categories"
+    },
+    "home.mission-vision": {
+      "eyebrow": "Original in Thought, Exceptional in Detail",
+      "heading": "Mission &",
+      "accent": "Vision",
+      "pillars": [
+        {
+          "eyebrow": "Our Mission",
+          "heading": "Imagination,",
+          "accent_word": "crafted.",
+          "body": "To transform imagination into exceptional paper artistry and personalised creations through originality, refined craftsmanship and thoughtful customisation. At PaperDreamz, we strive to turn every client's vision into a distinctive creation that reflects their individuality, exceeds ordinary expectations and makes every occasion more meaningful.",
+          "quote": "We don't just create products; we give imagination a beautiful identity."
+        },
+        {
+          "eyebrow": "Our Vision",
+          "heading": "Originality,",
+          "accent_word": "timeless.",
+          "body": "To establish PaperDreamz by Ruchi Mishra as a distinctive name in luxury paper artistry and customised creative design, inspiring crafters and designers across India and overseas through original concepts, trend-conscious innovation and uncompromising attention to detail. Beyond craft, our vision is to build a women-centric creative community that inspires independence, celebrates talent, and transforms creativity into a source of pride, purpose, and livelihood.",
+          "quote": "To inspire creativity, empower women, set new standards and make originality timeless."
+        }
+      ],
+      "signature": "PaperDreamz by Ruchi Mishra",
+      "tagline": "Where ideas become art, and details become distinction."
+    },
+    "home.why-choose-us": {
+      "eyebrow": "Inspired by Imagination",
+      "heading": "Why Choose",
+      "accent": "PaperDreamz",
+      "intro": "In a world where designs can be copied, true creativity cannot be replicated so easily. We do not simply follow trends — we create ideas that inspire them.",
+      "quote": "Not just crafted. Thoughtfully created. Unmistakably personal.",
+      "cta_label": "Let’s Create Together",
+      "cta_link": "#contact",
+      "reasons": [
+        {
+          "title": "Originality Is Our Signature",
+          "body": "Every design begins with an idea, not a template. Let others notice the trend — let our clients own the original experience."
+        },
+        {
+          "title": "Exclusivity Beyond the Ordinary",
+          "body": "We make every project feel imagined specifically for the recipient, down to the smallest detail."
+        },
+        {
+          "title": "Trendsetters by Instinct",
+          "body": "Creativity is imagining what people will appreciate tomorrow — fresh concepts, unconventional designs."
+        },
+        {
+          "title": "Your Vision, Our Interpretation",
+          "body": "A photograph, a theme, or simply an emotion — we translate your thoughts into a considered creation."
+        },
+        {
+          "title": "The Difference Is in the Details",
+          "body": "Precision cuts, compositional balance and flawless finishing define the lasting impression."
+        },
+        {
+          "title": "Customisation Without Compromise",
+          "body": "From names and themes to dimensions and materials, every creation stays personal to you."
+        },
+        {
+          "title": "Nearly 17 Years of Evolution",
+          "body": "From a single punching machine to intricate quilling, frames, scrapbooks and glass-house boxes."
+        },
+        {
+          "title": "Partner for Designers & Crafters",
+          "body": "We celebrate independent designers and gifting professionals, and welcome fresh collaborations."
+        }
+      ],
+      "closing_quote": "At PaperDreamz, we do not promise that every creation will be the most extravagant or expensive. We aim for something more meaningful: a creation that feels right for you.",
+      "differentiators": [
+        "Distinct Identity",
+        "Thoughtful Luxury",
+        "Personalised Purpose",
+        "Quality & Trust"
+      ],
+      "closing_cta_label": "Have an Idea? Let’s Create It Together",
+      "closing_cta_link": "#contact"
+    },
+    "home.new-arrivals": {
+      "new_arrivals_label": "New Arrivals",
+      "new_arrivals_description": "Fresh from our atelier — the latest shagun suites and keepsakes",
+      "hot_deals_label": "Hot Deals",
+      "hot_deals_description": "Limited-time offers on our most-loved designs",
+      "best_sellers_label": "Best Sellers",
+      "best_sellers_description": "The artisanal favorites couples keep coming back to",
+      "empty_message": "New pieces are on the way — check back soon."
+    },
+    "home.faq": {
+      "heading": "Before You Begin",
+      "quote": "Everything you’d want to know, answered with complete transparency.",
+      "image": "/images/diary_vanshika.webp",
+      "image_alt": "Bespoke keepsake diary",
+      "image_eyebrow": "100% Artisanal Heritage",
+      "image_caption": "Crafting Timeless Shagun Memories"
+    },
+    "about.hero": {
+      "eyebrow": "Our Story · Paper Dreamz by Ruchi Mishra",
+      "heading": "Every beautiful thing begins with a dream.",
+      "accent": "Ours began with paper.",
+      "intro": "From a small beginning in Delhi to a world of handcrafted elegance — a story shaped by imagination, patience, and thousands of little details that mean everything.",
+      "primary_cta_label": "Read the Journey",
+      "secondary_cta_label": "Explore Collections",
+      "image": "/images/brand_story_craft.webp",
+      "image_alt": "Ruchi Mishra's handcrafted paper creations",
+      "inset_image": "/images/hero_emerald_envelope.webp",
+      "inset_image_alt": "Emerald velvet envelope"
+    },
+    "about.crafts": {
+      "items": [
+        "Luxury Envelopes",
+        "Shagun Lifafas",
+        "Wedding & Roka Envelopes",
+        "Floating Pearl Envelopes",
+        "Gold & Silver Coin Boxes",
+        "Cash Boxes",
+        "Gift Tags",
+        "Custom Orders"
+      ]
+    },
+    "about.story": {
+      "eyebrow": "About Us",
+      "heading": "Not just paper.",
+      "accent": "A piece of someone’s story.",
+      "quote": "Some businesses begin with capital. Some begin with opportunity. And some begin with a dream that refuses to remain small.",
+      "paragraphs": [
+        "PaperDreamZ began nearly 17 years ago in Delhi, when **Ruchi Mishra** decided to turn her love for creativity into something meaningful. With a small fund to invest in a punching machine, she took her first step into a world that would gradually expand through tools, techniques, textures, colours, and countless ideas waiting to take shape.",
+        "There was no grand beginning. No extraordinary setup. Just a creative mind, the courage to begin with what was available, and the determination to make something beautiful out of something as simple as paper."
+      ],
+      "closing_text": "That small beginning became a journey, and that journey became",
+      "closing_highlight": "PaperDreamZ"
+    },
+    "about.stats": {
+      "items": [
+        {
+          "value": "2010",
+          "label": "Founded in Delhi"
+        },
+        {
+          "value": "1",
+          "label": "Punching machine to begin"
+        },
+        {
+          "value": "1000s",
+          "label": "Envelopes crafted for clients"
+        },
+        {
+          "value": "5+",
+          "label": "International regions served"
+        }
+      ]
+    },
+    "about.journey": {
+      "eyebrow": "The Journey",
+      "heading": "From one machine to a",
+      "accent": "thousand possibilities.",
+      "intro": "Our story was never about standing still. It was about discovering what more could be created, what more could be learned, and how far imagination could travel.",
+      "steps": [
+        {
+          "title": "The First Impression",
+          "body": "It started with a small investment in a punching machine — the first expressions of a creative vision.",
+          "image": "/images/craft_design_sketch.webp"
+        },
+        {
+          "title": "Precision & Quilling",
+          "body": "Cutting techniques and quilling opened new possibilities, transforming simple sheets into intricate handmade art.",
+          "image": "/images/craft_design_petals.webp"
+        },
+        {
+          "title": "The Beauty of Framing",
+          "body": "Preserving creations with lasting presence, so that presentation makes people feel truly special.",
+          "image": "/images/collection_frames.webp"
+        },
+        {
+          "title": "Tangible Memories",
+          "body": "Scrapbooks gave photographs, milestones and celebrations a permanent home beyond the moment.",
+          "image": "/images/collection_keepsakes.webp"
+        },
+        {
+          "title": "Cards, Invitations & Envelopes",
+          "body": "Greeting cards, invitations, envelopes and Shagun Lifafas became the signature of our journey. Every customised request challenged us to think differently — growing through continuous evolution without abandoning our roots.",
+          "image": "/images/collection_envelopes.webp"
+        }
+      ]
+    },
+    "about.envelopes": {
+      "watermark": "Envelopes",
+      "image": "/images/collection_luxury_envelopes.webp",
+      "image_alt": "Luxury handcrafted envelopes",
+      "badge_value": "Thousands",
+      "badge_label": "of envelopes for client orders",
+      "eyebrow": "Our Signature",
+      "heading": "Thousands of envelopes.",
+      "accent": "Countless emotions.",
+      "paragraphs": [
+        "An envelope carries a wedding invitation, a blessing, a heartfelt message, or a gift presented with love. Held for moments before being opened, its impression remains long after.",
+        "Over the years, PaperDreamZ has created thousands of envelopes for client orders, each reflecting thoughtful design, presentation, and personalisation — from elegant Shagun Lifafas to invitation envelopes."
+      ],
+      "quote": "We see an envelope not as the end of a design process, but as the beginning of an experience."
+    },
+    "about.promise": {
+      "eyebrow": "The PaperDreamZ Promise",
+      "heading": "Creativity is an ongoing",
+      "accent": "conversation.",
+      "intro": "Between what a client imagines and what we thoughtfully bring to life. Our approach evolves through client feedback and experimentation.",
+      "steps": [
+        {
+          "step": "Listen",
+          "body": "Every piece begins with what you imagine."
+        },
+        {
+          "step": "Explore",
+          "body": "Textures, colours and techniques, tried and tested."
+        },
+        {
+          "step": "Refine",
+          "body": "Your feedback shapes every detail and finish."
+        },
+        {
+          "step": "Create",
+          "body": "A beautiful new answer for what you need today."
+        }
+      ],
+      "values_label": "We value",
+      "values": [
+        "Texture",
+        "Colour precision",
+        "Refined finishes",
+        "Personal touches"
+      ]
+    },
+    "about.world": {
+      "eyebrow": "From Delhi to the World",
+      "heading": "A handcrafted detail",
+      "accent": "speaks across cultures.",
+      "intro": "What began in Delhi gradually reached clients across India and international markets — Africa, the USA, Europe, Australia and Pacific nations. Different places bring diverse traditions and celebrations, yet the appreciation for thoughtfully designed craftsmanship remains universal.",
+      "highlights": [
+        {
+          "value": "Delhi",
+          "label": "Where it all began"
+        },
+        {
+          "value": "5",
+          "label": "Continents reached"
+        },
+        {
+          "value": "1 envelope",
+          "label": "Speaks across every culture"
+        }
+      ],
+      "closing_quote": "A personalised envelope complements any meaningful celebration — wherever in the world it is opened."
+    },
+    "about.happiness": {
+      "eyebrow": "The Greatest Reward",
+      "heading": "Client",
+      "accent": "happiness.",
+      "paragraphs": [
+        "There is something deeply special about receiving messages from clients who love what we have created. Testimonials and photographs from celebrations are reminders that creativity has a human purpose.",
+        "We cherish repeat orders and build lasting relationships, knowing that our clients do more than inspire our work — they help shape the future of PaperDreamZ."
+      ],
+      "link_label": "Read client stories"
+    },
+    "about.next-chapter": {
+      "image": "/images/craft_design_lotus.webp",
+      "image_alt": "Handcrafted lotus envelope detail",
+      "eyebrow": "The Next Chapter",
+      "heading": "A destination for",
+      "accent": "luxurious envelopes.",
+      "body": "Our next chapter elevates the art of envelopes — building PaperDreamZ into a distinctive luxury destination for refined styles, personalisation, and creations suited to life’s most meaningful occasions.",
+      "quote": "We began with a small machine and a big dream. We continue with experience in our hands, gratitude in our hearts, and countless new ideas waiting to become reality.",
+      "quote_name": "Ruchi Mishra",
+      "quote_role": "Founder & Designer"
+    },
+    "about.personal-note": {
+      "eyebrow": "A Personal Note",
+      "text": "PaperDreamZ carries years of effort, learning, and the happiness of making something meaningful.",
+      "accent": "Thank you for being part of this story.",
+      "signature": "PaperDreamZ by Ruchi Mishra",
+      "tagline": "Where Paper Finds Its Purpose, Details Find Their Beauty, and Every Occasion Finds Its Expression.",
+      "primary_cta_label": "Shop the Collection",
+      "secondary_cta_label": "Start a Custom Order"
+    },
+    "shop.hero": {
+      "eyebrow": "The Collection",
+      "title": "Shop by category",
+      "accent": "handmade for every occasion.",
+      "intro": "Envelopes, cash boxes, coin boxes and tags — each one cut, layered and finished by hand, and each one made to be personalised for your celebration.",
+      "image": "/images/products/wedding-envelopes/we0003.webp",
+      "image_alt": "The Royal Lace handmade wedding envelope"
+    },
+    "shop.personalise": {
+      "items": [
+        {
+          "title": "Names & Monograms",
+          "text": "Hand-lettered names, initials and dates."
+        },
+        {
+          "title": "Your Colour Story",
+          "text": "Matched to your outfit, theme or décor."
+        },
+        {
+          "title": "Motifs & Embellishments",
+          "text": "Pearls, florals, foiling and more."
+        },
+        {
+          "title": "Any Quantity",
+          "text": "From a single piece to a full wedding."
+        }
+      ]
+    },
+    "shop.bespoke": {
+      "steps": [
+        {
+          "title": "Share the occasion",
+          "text": "Tell us the celebration, quantity and the feel you have in mind."
+        },
+        {
+          "title": "We design it",
+          "text": "Our atelier sketches options with your names, colours and motifs."
+        },
+        {
+          "title": "Handmade for you",
+          "text": "Approved designs are cut, layered and finished entirely by hand."
+        }
+      ],
+      "quote": "Every piece is designed around you — no two are ever alike.",
+      "button_label": "Start your design"
+    },
+    "gallery.hero": {
+      "eyebrow": "The Gallery",
+      "title": "Every design,",
+      "accent": "in one place.",
+      "intro": "A look at the pieces leaving our atelier. Tap any design to see its details, sizes and pack prices in the shop.",
+      "image": "/images/products/wedding-envelopes/we0005.webp",
+      "image_alt": "The Royal Elegance handmade wedding envelope"
+    },
+    "custom-orders.hero": {
+      "eyebrow": "Custom Orders · Bulk & Bespoke",
+      "title": "Your idea,",
+      "accent": "handcrafted by us.",
+      "intro": "Every Paper Dreamz piece can be made to your brief — your colours, your names, your motifs, in the quantity you need. Tell us about your celebration and we'll design around it.",
+      "image": "/images/craft_occasion_custom.webp",
+      "image_alt": "A bespoke gift box finished with a satin bow and pearl brooch"
+    },
+    "custom-orders.options": {
+      "eyebrow": "What we customise",
+      "heading": "Made around your celebration",
+      "items": [
+        {
+          "title": "Names & monograms",
+          "body": "Initials, family names, dates and messages, lettered on every piece."
+        },
+        {
+          "title": "Colours & themes",
+          "body": "Matched to your wedding palette, festival or baby theme."
+        },
+        {
+          "title": "Motifs & embellishments",
+          "body": "Pearls, florals, foiling, laser-cut patterns and religious motifs."
+        },
+        {
+          "title": "Envelopes, boxes & tags",
+          "body": "Shagun envelopes, cash boxes, coin boxes, luxury and greeting tags."
+        },
+        {
+          "title": "Bulk orders",
+          "body": "Weddings, celebrations and corporate gifting, priced around your quantity."
+        },
+        {
+          "title": "Careful packing",
+          "body": "Packed by hand and delivered to every corner of India."
+        }
+      ]
+    },
+    "custom-orders.steps": {
+      "eyebrow": "How it works",
+      "heading": "From your idea to your doorstep",
+      "subtext": "Four simple steps — we keep you in the loop from the first sketch to dispatch.",
+      "image": "/images/craft_design_sketch.webp",
+      "image_alt": "Sketching a custom Paper Dreamz design",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Share your idea",
+          "body": "Send us the occasion, quantity, date and any reference images on WhatsApp or through the form below."
+        },
+        {
+          "step": "02",
+          "title": "Design & confirm",
+          "body": "We suggest designs, colours and finishes, and refine them with your feedback until every detail is right."
+        },
+        {
+          "step": "03",
+          "title": "Confirm your order",
+          "body": "Orders are confirmed with 100% advance payment, and production begins as soon as it is received."
+        },
+        {
+          "step": "04",
+          "title": "Handcrafted & dispatched",
+          "body": "Standard orders are processed within 7 working days; bulk orders take around 3 weeks."
+        }
+      ],
+      "callout_title": "Have a design in mind?",
+      "callout_text": "Add a reference photo to your enquiry and we’ll design around it.",
+      "callout_button": "Start your order"
+    },
+    "custom-orders.form": {
+      "eyebrow": "Start your order",
+      "heading": "Tell us what you have in mind",
+      "intro": "Share a few details and we’ll get back to you with design ideas and a quote.",
+      "occasions": [
+        "Wedding / Roka / Engagement",
+        "Baby Arrival / Cradle Ceremony",
+        "Birthday / Anniversary",
+        "Festival (Diwali, Raksha Bandhan, Eid, Christmas…)",
+        "Corporate Gifting",
+        "Other"
+      ]
+    },
+    "contact.hero": {
+      "eyebrow": "Contact Us",
+      "title": "Let's create something",
+      "accent": "beautiful together.",
+      "intro": "Orders, custom designs or a quick question — reach us on WhatsApp, phone or email.",
+      "image": "/images/collection_envelopes.webp",
+      "image_alt": "Paper Dreamz handmade envelopes"
+    },
+    "contact.form": {
+      "eyebrow": "Write to us",
+      "heading": "We’d love to hear from you",
+      "intro": "Questions about an order, a design you’ve seen, or bulk pricing — send us a message and we’ll reply on WhatsApp."
+    },
+    "faq.hero": {
+      "eyebrow": "Customer Care · FAQs",
+      "title": "Questions,",
+      "accent": "answered.",
+      "intro": "Customisation, bulk orders, timelines, payment and delivery — everything you'd want to know before you order.",
+      "image": "/images/craft_design_sketch.webp",
+      "image_alt": "A monogram being sketched by hand on cotton paper"
+    },
+    "faq.cta": {
+      "text": "Still have a question?",
+      "button_label": "Contact Us"
+    }
+  },
+  "testimonials_section": {
+    "heading": "The Experience",
+    "subtext": "In the words of those who have gifted, celebrated and trusted us with their most special memories"
+  },
+  "testimonials": [
+    {
+      "name": "Shradha Inani",
+      "city": "Hyderabad",
+      "highlight": "Every single piece was absolutely perfect. The cuts were precise, the finishing was flawless, and not even one envelope was faulty.",
+      "body": "Absolutely loved the customised envelopes made for my baby’s cradle ceremony! The attention to detail was incredible, and every single piece was absolutely perfect. The cuts were precise, the finishing was flawless, and not even one envelope was faulty.\n\nEveryone who received them appreciated the beautiful work and kept asking where I got them from! So happy with the quality, creativity, and effort that went into making these. Highly recommend her for anyone looking for beautifully customised envelopes for special occasions. Thank you for making our celebration even more special!"
+    },
+    {
+      "name": "Rajani Todi",
+      "city": "Kolkata",
+      "highlight": "The envelopes looked so pretty, more beautiful than it seemed on the screen, exactly as we had hoped.",
+      "body": "We liked the envelope a lot in the starting when we saw that reel, it was something different and it was really beautiful but when it finally came to ordering it and that too such a bulk order we were scared of getting scammed, it happens a lot nowadays and with such a big order it was really scary for us, but we trusted her, of course after clearing our doubts and praying to God that everything will be good, but we were scared every day till the courier arrived.\n\nFinally our courier arrived and the envelopes looked so pretty, more beautiful than it seemed on the screen, exactly as we had hoped, and our face lit up when we opened the courier. Everyone appreciated the envelope and asked where to buy it for themselves, it was one gift which was really amazing and successful."
+    },
+    {
+      "name": "Sheenam",
+      "city": "Amritsar",
+      "highlight": "When little details are done with perfection, it can be seen as a whole.",
+      "body": "I was actually quite sure about ordering with you, because when little details are done with perfection, it can be seen as a whole."
+    },
+    {
+      "name": "Anju Sahni",
+      "city": "Mumbai",
+      "highlight": "I truly appreciate how efficiently and carefully you managed everything. The product is absolutely lovely.",
+      "body": "Thank you so much for sending the parcel so promptly. I truly appreciate how efficiently and carefully you managed everything. The product is absolutely lovely, and I’m very happy with the quality. Thank you once again for the wonderful service and for making the whole experience so smooth."
+    },
+    {
+      "name": "Anu",
+      "city": "Pune",
+      "highlight": "Ruchi has a wonderful ability to turn memories and emotions into something tangible and beautiful. Her work is not just handmade; it is made from the heart.",
+      "body": "I have had the pleasure of getting two very special creations made by Ruchi, and both were truly beautiful.\n\nThe first was a handmade baby album for my grandson. It was so pretty, unique and beautifully detailed that everyone who saw it kept asking me, “Who made this?” It was clearly made with so much love, patience and attention to detail.\n\nI then got a special message card made for my mom’s 85th birthday, and honestly, it became one of the most meaningful gifts for her. It was personal, thoughtful and beautifully put together — something she will always treasure.\n\nRuchi has a wonderful ability to turn memories and emotions into something tangible and beautiful. Her work is not just handmade; it is made from the heart. I would highly recommend her to anyone looking for something truly personal and special."
+    },
+    {
+      "name": "Uma Goel",
+      "city": "New Delhi",
+      "highlight": "She instantly understands what I want, how I want and most importantly when I want. Never has she disappointed me.",
+      "body": "So I’ve known Ruchi since 15 years or so. Her consistency and professionalism impressed me the most. She instantly understands what I want, how I want and most importantly when I want because generally I am always in an urgency mode. But never has she disappointed me, be it with her neat work, or delivering it on time and just the thing I had imagined. Her soft attitude makes her very approachable and her work always makes me happy. Keep up your good work. Shine on."
+    },
+    {
+      "name": "Renu",
+      "city": "Delhi",
+      "highlight": "They are beautifully designed, elegant, and look even more lovely in person. The quality and detailing are amazing.",
+      "body": "I absolutely loved the envelopes! They are beautifully designed, elegant, and look even more lovely in person. The quality and detailing are amazing. I’m really happy with them and would definitely recommend them to others. Thank you so much!"
+    },
+    {
+      "name": "A Cherished Patron",
+      "city": "Paper Dreamz Family",
+      "highlight": "Ruchi has made gifting something to a dear one a special moment for me. Each piece is so beautiful that sometimes it was difficult for me to part with them.",
+      "body": "Ruchi has made gifting something to a dear one a special moment for me! I have had her put together a lot of stuff for my family and friends, who mean a lot to me and she has always made sure that each item turned out as beautiful and unique as I wanted them to.\n\nShe has even made things for me at such a short notice, that it was difficult to even imagine that was possible! The creativity and the passion with which she makes the books, frames, journals is really inspiring. Each piece is so beautiful that sometimes it was difficult for me to part with them and give them away.\n\nShe is a gem of a person, always forthcoming when it comes to guidance, any query regarding crafting, never shies away from sharing her knowledge, which makes her a great teacher! I have also undertaken many courses with her and it won’t be an exaggeration when I say that to find a better teacher in crafting than her won’t be possible.\n\nKeep up the great work Ruchi, stay humble, stay your beautiful self. You already are and will always do wonders!"
+    }
+  ],
+  "policies": [
+    {
+      "slug": "shipping-delivery",
+      "title": "Shipping & Delivery",
+      "intro": "Every order is handmade, packed by hand and shipped to every corner of India.",
+      "hero_image": "/images/craft_occasion_bulk.webp",
+      "sections": [
+        {
+          "heading": "Processing time",
+          "body": "Standard orders are processed within 7 working days of payment.\n\nBulk orders typically take around 3 weeks for processing and dispatch.\n\nTimelines may vary slightly with design complexity and quantity — we will confirm the expected dispatch date when your order is confirmed."
+        },
+        {
+          "heading": "Delivery",
+          "body": "We deliver across India, from metros to the smallest towns. Once your order is dispatched we share the courier tracking details with you on WhatsApp.\n\nDelivery time after dispatch depends on your location and the courier partner."
+        },
+        {
+          "heading": "Shipping charges",
+          "body": "Shipping is complimentary on orders above the amount shown in the announcement bar at the top of our website. For smaller orders, shipping charges are shared with you before you confirm."
+        },
+        {
+          "heading": "Urgent orders",
+          "body": "Need it sooner? Message us on WhatsApp before ordering and we will tell you honestly whether your date is possible."
+        }
+      ]
+    },
+    {
+      "slug": "returns-refunds",
+      "title": "Returns & Refunds",
+      "intro": "Because every piece is handmade and customised for you, please read this before confirming your order.",
+      "hero_image": "/images/craft_design_pearls.webp",
+      "sections": [
+        {
+          "heading": "Returns and exchanges",
+          "body": "As every piece is handmade and customised specifically for you, we are unable to accept returns or exchanges.\n\nWe recommend reviewing your customisation details — names, dates, spellings, colours and quantities — carefully before confirming your order."
+        },
+        {
+          "heading": "Damaged in transit",
+          "body": "We pack every order with care. If your parcel arrives damaged, please contact us on WhatsApp as soon as you receive it, with photos of the parcel and the product, so we can help."
+        },
+        {
+          "heading": "Cancellations",
+          "body": "Production begins as soon as your payment is received, so orders cannot be cancelled once work has started."
+        }
+      ]
+    },
+    {
+      "slug": "terms-conditions",
+      "title": "Terms & Conditions",
+      "intro": "The terms that apply when you order from Paper Dreamz by Ruchi Mishra.",
+      "hero_image": "/images/craft_design_finished.webp",
+      "sections": [
+        {
+          "heading": "Orders and payment",
+          "body": "We require 100% advance payment to confirm an order; production begins as soon as payment is received.\n\nPrices for bulk and customised orders are quoted individually, based on design and quantity."
+        },
+        {
+          "heading": "Handmade products",
+          "body": "Every piece is cut, assembled and finished by hand, so small variations in colour, texture and placement are part of its character and are not defects.\n\nColours may look slightly different on screen than in person."
+        },
+        {
+          "heading": "Customisation",
+          "body": "You are responsible for checking names, dates, spellings and other customisation details before confirming. Pieces are made exactly as approved."
+        },
+        {
+          "heading": "Designs and images",
+          "body": "All designs, photographs and content on this website belong to Paper Dreamz by Ruchi Mishra and may not be copied or reused without permission."
+        },
+        {
+          "heading": "Shipping and returns",
+          "body": "Delivery, returns and cancellations are covered by our Shipping & Delivery and Returns & Refunds policies."
+        }
+      ]
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "intro": "How we handle the details you share with us.",
+      "hero_image": "/images/craft_design_petals.webp",
+      "sections": [
+        {
+          "heading": "What we collect",
+          "body": "When you enquire or order, we collect the details you share with us — such as your name, phone number, email, delivery address and customisation details.\n\nIf you subscribe to our newsletter, we store your email address."
+        },
+        {
+          "heading": "How we use it",
+          "body": "We use your details only to respond to your enquiry, make and deliver your order, and — if you subscribed — send you occasional updates.\n\nWe share your delivery details with our courier partner only so that your order can reach you. We never sell your information."
+        },
+        {
+          "heading": "Payments",
+          "body": "We do not store your card or bank details on this website."
+        },
+        {
+          "heading": "Your choices",
+          "body": "You can ask us to update or delete your details, or unsubscribe from our newsletter, at any time by contacting us."
+        }
+      ]
+    }
+  ],
+  "catalog": [
+    {
+      "name": "Envelopes",
+      "slug": "envelopes",
+      "tag": "Luxury Handmade",
+      "img": "/images/collection_envelopes.webp",
+      "accent": "for every shagun",
+      "description": "Handmade shagun envelopes for weddings, baby arrivals, festivals and every celebration in between — cut, layered and finished by hand.",
+      "occasions": [
+        "Weddings",
+        "Baby Arrivals",
+        "Diwali",
+        "Rakhi",
+        "Birthdays"
+      ],
+      "children": [
+        {
+          "name": "Wedding Envelopes",
+          "slug": "wedding-envelopes",
+          "tag": "Turn every gift into a fairytale of luxury.",
+          "img": "/images/products/wedding-envelopes/we0001.webp?v=2",
+          "products": [
+            {
+              "code": "WE0001",
+              "name": "The Luxe Cash Envelope",
+              "description": "An exquisite ivory cash envelope adorned with intricate gold artistry and delicate pearl embellishments. A timeless expression of elegance, perfect for weddings, shagun, and distinguished celebrations.",
+              "img": "/images/products/wedding-envelopes/we0001.webp?v=2",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "3.5 × 6.5 in (8.89 × 16.51 cm) approx.",
+                  "capacity": "Up to ₹11,000",
+                  "packs": [
+                    {
+                      "qty": 12,
+                      "price": 1800
+                    },
+                    {
+                      "qty": 25,
+                      "price": 3500
+                    },
+                    {
+                      "qty": 50,
+                      "price": 6750
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": "WE0002",
+              "name": "The Floral Luxe Cash Envelope",
+              "description": "An exquisite ivory cash envelope featuring delicate floral artistry, elegant gold accents, and a pearl centerpiece. A sophisticated choice for weddings, shagun, and distinguished celebrations.",
+              "img": "/images/products/wedding-envelopes/we0002.webp?v=2",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "3.5 × 6.5 in (8.89 × 16.51 cm) approx.",
+                  "capacity": "Up to ₹11,000",
+                  "packs": [
+                    {
+                      "qty": 10,
+                      "price": 2000
+                    },
+                    {
+                      "qty": 25,
+                      "price": 4750
+                    },
+                    {
+                      "qty": 50,
+                      "price": 9000
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": "WE0003",
+              "name": "The Royal Lace Envelope",
+              "description": "An exquisite ivory envelope adorned with intricate lace detailing, a delicate gold-accented band, and an elegant pearl embellishment, creating a timeless expression of luxury for weddings, anniversaries, and special celebrations.",
+              "img": "/images/products/wedding-envelopes/we0003.webp?v=2",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "3.5 × 6.5 in (8.89 × 16.51 cm) approx.",
+                  "capacity": "Up to ₹11,000",
+                  "packs": [
+                    {
+                      "qty": 12,
+                      "price": 1800
+                    },
+                    {
+                      "qty": 25,
+                      "price": 3500
+                    },
+                    {
+                      "qty": 50,
+                      "price": 6750
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": "WE0004",
+              "name": "The Timeless Lace Envelope",
+              "description": "An elegant ivory envelope featuring intricate geometric lace detailing arranged in a graceful diagonal pattern, beautifully finished with a delicate pearl embellishment for a sophisticated, luxurious touch. Perfect for weddings, anniversaries, and special celebrations.",
+              "img": "/images/products/wedding-envelopes/we0004.webp?v=2",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "3.5 × 6.5 in (8.89 × 16.51 cm) approx.",
+                  "capacity": "Up to ₹11,000",
+                  "packs": [
+                    {
+                      "qty": 12,
+                      "price": 1800
+                    },
+                    {
+                      "qty": 25,
+                      "price": 3500
+                    },
+                    {
+                      "qty": 50,
+                      "price": 6750
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": "WE0005",
+              "name": "The Royal Elegance Envelope",
+              "description": "A sophisticated ivory envelope featuring ornate gold-accented scrollwork, an elegant central frame, and a delicate “Best Wishes” sentiment. Finished with a refined gold border, this timeless design adds a touch of regal charm to weddings, anniversaries, and special celebrations.",
+              "img": "/images/products/wedding-envelopes/we0005.webp?v=2",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "3.5 × 6.5 in (8.89 × 16.51 cm) approx.",
+                  "capacity": "Up to ₹11,000",
+                  "packs": [
+                    {
+                      "qty": 12,
+                      "price": 1800
+                    },
+                    {
+                      "qty": 25,
+                      "price": 3500
+                    },
+                    {
+                      "qty": 50,
+                      "price": 6750
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": "WE0006",
+              "name": "The Imperial Elegance Envelope",
+              "description": "An exquisite ivory envelope adorned with intricate ornamental filigree in metallic silver, a beautifully framed central medallion, and a refined contrasting border. Features the timeless “Best Wishes” sentiment, this elegant design brings a regal touch to weddings, anniversaries, and special celebrations.",
+              "img": "/images/products/wedding-envelopes/we0006.webp?v=2",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "3.5 × 6.5 in (8.89 × 16.51 cm) approx.",
+                  "capacity": "Up to ₹11,000",
+                  "packs": [
+                    {
+                      "qty": 10,
+                      "price": 1750
+                    },
+                    {
+                      "qty": 25,
+                      "price": 4250
+                    },
+                    {
+                      "qty": 50,
+                      "price": 7850
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Baby Envelopes",
+          "slug": "baby-envelopes",
+          "tag": "",
+          "img": "/images/collection_babybooks.webp"
+        },
+        {
+          "name": "Baby Theme Coin Envelopes",
+          "slug": "baby-theme-coin-envelopes",
+          "tag": "",
+          "img": "/images/collection_babybooks.webp"
+        },
+        {
+          "name": "Festive Envelopes",
+          "slug": "festive-envelopes",
+          "tag": "",
+          "img": "/images/craft_design_lotus.webp"
+        },
+        {
+          "name": "Floating Pearl Envelopes",
+          "slug": "floating-pearl-envelopes",
+          "tag": "",
+          "img": "/images/craft_design_pearls.webp"
+        },
+        {
+          "name": "Floral Envelopes",
+          "slug": "floral-envelopes",
+          "tag": "",
+          "img": "/images/craft_design_petals.webp"
+        },
+        {
+          "name": "Gold / Silver Coin Envelopes",
+          "slug": "gold-silver-coin-envelopes",
+          "tag": "",
+          "img": "/images/k.webp"
+        },
+        {
+          "name": "Luxury Envelopes",
+          "slug": "luxury-envelopes",
+          "tag": "",
+          "img": "/images/collection_luxury_envelopes.webp"
+        },
+        {
+          "name": "Religious Envelopes",
+          "slug": "religious-envelopes",
+          "tag": "",
+          "img": "/images/craft_design_finished.webp"
+        },
+        {
+          "name": "Traditional Envelopes",
+          "slug": "traditional-envelopes",
+          "tag": "",
+          "img": "/images/hero_emerald_envelope.webp"
+        }
+      ]
+    },
+    {
+      "name": "Gold / Silver Coin Boxes",
+      "slug": "gold-silver-coin-boxes",
+      "tag": "Gifts Of Prosperity",
+      "img": "/images/collection_keepsakes.webp",
+      "accent": "gifts of prosperity",
+      "description": "Elegant presentation boxes for gold and silver coins, made to be kept long after the gift is given.",
+      "occasions": [
+        "Dhanteras",
+        "Baby Showers",
+        "Anniversaries",
+        "Corporate Gifting"
+      ],
+      "children": [
+        {
+          "name": "Baby Theme Gold / Silver Coin Boxes",
+          "slug": "baby-theme-gold-silver-coin-boxes",
+          "tag": "",
+          "img": "/images/collection_babybooks.webp"
+        }
+      ]
+    },
+    {
+      "name": "Cash Boxes",
+      "slug": "cash-boxes",
+      "tag": "Shagun Presentation",
+      "img": "/images/collection_frames.webp",
+      "accent": "a moment, not a gift",
+      "description": "Keepsake boxes that turn a cash gift into a moment, designed for weddings, rokas and baby celebrations.",
+      "occasions": [
+        "Weddings",
+        "Rokas",
+        "Baby Celebrations",
+        "Housewarmings"
+      ],
+      "children": [
+        {
+          "name": "Baby Theme Cash Boxes",
+          "slug": "baby-theme-cash-boxes",
+          "tag": "",
+          "img": "/images/collection_babybooks.webp"
+        }
+      ]
+    },
+    {
+      "name": "Luxury Tags",
+      "slug": "luxury-tags",
+      "tag": "Finishing Touches",
+      "img": "/images/collection_gifting.webp",
+      "accent": "the finishing touch",
+      "description": "Finishing touches for gift hampers, favours and trousseau packing, personalised with names, dates and motifs.",
+      "occasions": [
+        "Gift Hampers",
+        "Wedding Favours",
+        "Trousseau Packing",
+        "Return Gifts"
+      ],
+      "children": []
+    },
+    {
+      "name": "Greeting Cards",
+      "slug": "greeting-cards",
+      "tag": "Words That Linger",
+      "img": "/images/products/Luxury Cards/image (4).png",
+      "accent": "words that linger",
+      "description": "Handmade 3D dimensional greeting and gift cards crafted with layered papercraft, interactive shaker domes, and exquisite gold foil accents.",
+      "occasions": [
+        "Christmas & New Year",
+        "Birthdays",
+        "Weddings",
+        "Baby Showers",
+        "Celebrations"
+      ],
+      "children": [
+        {
+          "name": "Luxury Gifting Card",
+          "slug": "luxury-gifting-card",
+          "tag": "Interactive 3D Handcrafted Keepsakes",
+          "img": "/images/products/Luxury Cards/image (4).png",
+          "products": [
+            {
+              "code": "LGC001",
+              "name": "The Christmas Poinsettia Keepsake Card",
+              "description": "An artisan 3D luxury handcrafted card featuring die-cut layered poinsettia blooms, gilded winter mittens, delicate snow accents, and festive dimensional typography on textured craft stock.",
+              "img": "/images/products/Luxury Cards/image (4).png",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "4.5 × 7.5 in (11.4 × 19.0 cm) approx.",
+                  "capacity": "Currency note slot & handwritten letter page",
+                  "packs": [
+                    {
+                      "qty": 1,
+                      "price": 350
+                    },
+                    {
+                      "qty": 5,
+                      "price": 1450
+                    },
+                    {
+                      "qty": 10,
+                      "price": 2750
+                    },
+                    {
+                      "qty": 25,
+                      "price": 6250
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "code": "LGC002",
+              "name": "The Whimsical 'Wish Big' 3D Shaker Card",
+              "description": "An enchanting dimensional celebration card featuring an interactive clear 3D shaker dome filled with candy dragees, a sculpted polar bear pâtissier, tiered cupcake, and picket fence detailing.",
+              "img": "/images/products/Luxury Cards/image (5).png",
+              "sizes": [
+                {
+                  "label": "Standard",
+                  "dimensions": "4.5 × 7.5 in (11.4 × 19.0 cm) approx.",
+                  "capacity": "Interactive 3D shaker & keepsake note",
+                  "packs": [
+                    {
+                      "qty": 1,
+                      "price": 380
+                    },
+                    {
+                      "qty": 5,
+                      "price": 1600
+                    },
+                    {
+                      "qty": 10,
+                      "price": 3000
+                    },
+                    {
+                      "qty": 25,
+                      "price": 6800
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,3 +1,6 @@
+# Gitmodules
+.gitmodules
+
 # Local PHP runtime & composer binaries
 php84/
 /php84/
@@ -6,14 +9,23 @@ composer.phar
 
 # Environment files
 .env
-.env.backup
-.env.production
-.env.local
+.env.*
+!.env.example
+
+# Database
+*.sqlite
+*.sqlite-journal
 
 # OS generated files
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
 
 # Dependencies & build outputs
 node_modules/
@@ -22,6 +34,8 @@ vendor/
 out/
 dist/
 build/
+storage/*.key
+storage/pail/
 
 # Logs & temporary files
 *.log
@@ -30,4 +44,3 @@ yarn-debug.log*
 yarn-error.log*
 *.zip
 *.bak
-
